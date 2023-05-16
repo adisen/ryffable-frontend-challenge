@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ryffable Challenge Take Home
+
+Short technical challenge for ryffable.
+
+Congrats in passing Ryffable's first round of interview!
+
+Kindly find the project assignment. You have 36 hours to complete your assignment from the first time you get the email.
+
+Remember to consistently commit your progress throughout your development!
 
 ## Getting Started
 
-First, run the development server:
+You will need to use the following technologies for the project:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- NextJS
+- TypeScript
+- TailwindCSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Submission
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Fork this repo
+- Create a PR against the main branch of this repo
+- Deploy the final product to Vercel and add the link to the PR description
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Task
 
-## Learn More
+- Create a test api endpoint using NextJA API route with the following parameters: name, place, animal, food, things
+- Populate it with dummy data in alphabetucal order from A to Z.
+- **Create a table with pagination and each functionality**
+- Populate the table with the data from the api endpoint you created.
 
-To learn more about Next.js, take a look at the following resources:
+Check the below to see what the final product is expected to look like.
+NB: you can add whatever styling you want, your end results doesn't have to look exactly like the below.
+[Demo](https://drive.google.com/file/d/10X_qjGUFy31mrjeoLZ51IWcmx9JCHWbN/view?usp=sharing)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Metrics:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You will be assessed based on:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Clean code
+- Good design of databases etc.
+- Error handling
+- Coding best practices / design patterns
+- Features completed
+- Time
+- Code Quality
